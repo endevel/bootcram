@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
 import TimerOff from './TimerOff'
+import ResultSet from './ResultSet';
+
 
 class StatRow extends Component {
     render() {
@@ -9,6 +11,9 @@ class StatRow extends Component {
                 <div>
                     <TimerOff />
                 </div> 
+                <div className = "result-set">
+                    <ResultSet />
+                </div>
             </div>
         )
     }

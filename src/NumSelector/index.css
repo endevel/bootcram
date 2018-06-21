@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Oswald+Forum+Roboto:regular,bold,italic&subset=latin,latin-ext'); 
+
+
 .body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -42,7 +45,12 @@
 .timer-off {
     padding: 10px;
     margin-left: 10px;
-    font-family: 'Forum', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.result-set {
+    padding: 10px;
+    margin-left: 10px;
 }
 
 .work-page {
