@@ -1,0 +1,79 @@
+.body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+.border {
+    margin: 10px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;    
+    border: 1px solid chocolate;
+    width: 520px;
+}
+
+.header {
+    background-color: chocolate;
+    margin: 2px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
+    color: beige;
+    vertical-align: middle;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.caption {
+    margin-left: 10px;
+}
+
+.work-page {
+    margin: 1px;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.current-number {
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 70px;
+    text-align: center;
+    float: right;
+    background-color: gold;
+    border: 2px solid goldenrod;
+    color: #fafafa;
+    font-family: 'Fira Sans', sans-serif;  
+    font-size: 20pt;
+    color: navy     
+}
+
+.stat-row {
+    margin: 2px;
+    padding: 10px;
+    background-color: chocolate;
+    color: beige;
+}
+
+.card {
+    margin: 5px;
+    padding: 10px;
+    border: solid 1px #fafafa;
+    background-color: darkorange;
+    width: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12pt;           
+}
