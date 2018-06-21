@@ -34,6 +34,17 @@
     margin-left: 10px;
 }
 
+.stat-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.timer-off {
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Forum', cursive;
+}
+
 .work-page {
     margin: 1px;
     padding: 10px;
@@ -77,3 +88,4 @@
     font-family: 'Fira Sans', sans-serif;
     font-size: 12pt;           
 }
+
